@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>C A L C U L A T O R</title>
+    <style>
+        .main {
+            height: 100vh;
+            width: 100vw;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+           background-repeat: no-repeat;
+           background-position: center;
+           background-size: cover;
+            background-image: url(https://wallpapers.com/images/hd/red-and-blue-calculators-yxm0myfzuym67431.jpg);
+
+        }
+
+        .main-one {
+            height: 75vh;
+            width: 26vw;
+            background-color: black;
+            border-radius: 12px;
+
+        }
+
+        .one {
+            height: 20vh;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+        }
+
+        .two {
+            height: 50vh;
+            width: 100%;
+            background-color: black;
+            border-radius: 12px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+
+
+
+        }
+
+        .sub {
+            height: 10vh;
+            width: 90%;
+            box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+        }
+
+        .sub-one {
+            height: 10vh;
+            width: 90%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+        }
+
+        .first {
+            height: 7vh;
+            width: 80%;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .second {
+            height: 7vh;
+            width: 80%;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .first-one {
+            height: 50px;
+            width: 55px;
+            background-color: rgba(11, 227, 251, 0.939);
+            color: white;
+            border-radius: 10px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .first-two {
+            height: 50px;
+            width: 130px;
+            background-color: #1E201E;
+            color: white;
+            border-radius: 5px;
+            text-align: center;
+
+        }
+
+        .first-four {
+            height: 50px;
+            width: 55px;
+            background-color: #1E201E;
+
+            border-radius: 10px;
+            color: white;
+            text-align: center;
+        }
+
+        .first-three {
+            height: 133px;
+            width: 55px;
+            background-color: rgba(11, 227, 251, 0.939);
+            color: white;
+            border-radius: 5px;
+            text-align: center;
+            margin-top: 30%;
+
+        }
+
+        .first-five {
+            height: 100px;
+            width: 55px;
+
+            border-radius: 5px;
+            text-align: center;
+            margin-top: 18%;
+        }
+
+
+        .third-box {
+            height: 50px;
+            width: 55px;
+            background-color: #1E201E;
+            color: white;
+            /* box-shadow: rgba(155, 144, 144, 0.35) 0px 5px 15px; */
+            border-radius: 10px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        ::placeholder[type="submit"] {
+            font-size: 40px;
+            text-align: end;
+         
+        }
+
+        input[type="number"] {
+            font-size: 50px;
+        }
+    </style>
+
+
+</head>
+
+<body style="margin: 0;">
+
+    <div class="main">
+        <div class="main-one">
+            <div class="one">
+                <div class="sub-one">
+                    <input class="sub" type="number" placeholder="0">
+                </div>
+            </div>
+
+            <div class="two">
+
+                <div class="first">
+                    <div class="first-one">
+                        <h3 style="font-family: 'Courier New', Courier, monospace;">AC</h3>
+                    </div>
+                    <div class="first-one">
+                        <h3 style="font-family: 'Courier New', Courier, monospace;">DEL</h3>
+                    </div>
+                    <div class="first-one">
+                        <h3 style="font-family: 'Courier New', Courier, monospace;">/</h3>
+                    </div>
+                    <div class="first-one">
+                        <h3 style="font-family: 'Courier New', Courier, monospace;">*</h3>
+                    </div>
+                </div>
+
+                <div class="first">
+                    <div class="third-box">
+                        <h3 style="font-family: 'Courier New', Courier, monospace;">7</h3>
+                    </div>
+                    <div class="third-box">
+                        <h3 style="font-family: 'Courier New', Courier, monospace;">8</h3>
+                    </div>
+                    <div class="third-box">
+                        <h3 style="font-family: 'Courier New', Courier, monospace;">9</h3>
+                    </div>
+                    <div class="first-one">
+                        <h3 style="font-family: 'Courier New', Courier, monospace;">-</h3>
+                    </div>
+                </div>
+                <div class="first">
+                    <div class="third-box">
+                        <h3 style="font-family: 'Courier New', Courier, monospace;">4</h3>
+                    </div>
+                    <div class="third-box">
+                        <h3 style="font-family: 'Courier New', Courier, monospace;">5</h3>
+                    </div>
+                    <div class="third-box">
+                        <h3 style="font-family: 'Courier New', Courier, monospace;">6</h3>
+                    </div>
+                    <div class="first-one">
+                        <h3 style="font-family: 'Courier New', Courier, monospace;">+</h3>
+                    </div>
+                </div>
+                <div class="first">
+                    <div class="third-box">
+                        <h3 style="font-family: 'Courier New', Courier, monospace;">1</h3>
+                    </div>
+                    <div class="third-box">
+                        <h3 style="font-family: 'Courier New', Courier, monospace;">2</h3>
+                    </div>
+                    <div class="third-box">
+                        <h3 style="font-family: 'Courier New', Courier, monospace;">3</h3>
+                    </div>
+                    <div class="first-three">
+                        <h3 style="font-family: 'Courier New', Courier, monospace;margin-top: 100%;">=</h3>
+                    </div>
+                </div>
+                <div class="second">
+                    <div class="first-two">
+                        <h3 style="font-family: 'Courier New', Courier, monospace;margin-bottom: 1%;">0</h3>
+                    </div>
+                    <div class="first-four">
+                        <h2 style="font-family: 'Courier New', Courier, monospace;margin-top: -0.2px;">.</h2>
+                    </div>
+                    <div class="first-five">
+                        <h2 style="font-family: 'Courier New', Courier, monospace;"></h2>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

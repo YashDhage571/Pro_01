@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <title>C O N T A C T</title>
+    <style>
+        .main {
+            width: 100vw;
+            height: 100vh;
+            background-color: rgb(228, 216, 216);
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+        }
+
+
+        .one {
+            height: 90%;
+            width: 80%;
+            
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            border-radius: 12px;
+            box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+
+
+        }
+
+
+        
+        .subtwo {
+
+            background-color: black;
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            border-radius: 12px;
+
+        }
+
+        .right-col {
+
+            width: 50vw;
+            height: 100vh;
+            padding: 5rem 3.5rem;
+
+        }
+
+        /* Typography styles */
+        h1,
+        label,
+        button,
+        .description {
+            font-family: 'Jost', sans-serif;
+            font-weight: 400;
+            letter-spacing: 0.1rem;
+        }
+
+        h1 {
+
+            text-transform: uppercase;
+            font-size: 2.5rem;
+            letter-spacing: 0.5rem;
+            font-weight: 300;
+        }
+
+
+        label,
+        .description {
+
+            text-transform: uppercase;
+            font-size: 0.625rem;
+        }
+
+        /* Form styling */
+        form {
+            width: 31.25rem;
+            position: relative;
+            margin-top: 2rem;
+            padding: 1rem 0;
+        }
+
+        input,
+        textarea,
+        label {
+            width: 40vw;
+            display: block;
+        }
+
+        /* Placeholder text styling */
+
+        /* Input and textarea styles */
+        input,
+        textarea {
+
+            font-weight: 500;
+            border: none;
+            border-bottom: 1px solid;
+            padding: 0.5rem 0;
+            margin-bottom: 1rem;
+            outline: none;
+        }
+
+        /* Disable textarea resize */
+        textarea {
+            resize: none;
+        }
+
+        /* Button styling */
+        button {
+            text-transform: uppercase;
+            font-weight: 300;
+            width: 10rem;
+            height: 2.25rem;
+            border: none;
+            border-radius: 2px;
+            outline: none;
+            cursor: pointer;
+        }
+
+        /* Hover effects */
+        input:hover,
+        textarea:hover,
+        button:hover {
+            opacity: 0.5;
+        }
+
+        /* Active state for button */
+        button:active {
+            opacity: 0.8;
+        }
+
+        /* Body styles */
+        body {
+            margin: 0;
+            padding: 0;
+            background: #dedede;
+        }
+
+        ::placeholder {
+
+            padding: 2%;
+        }
+        .one-main{
+            height: 20%;
+            width: 100%;
+            border: solid 1px;
+            border-radius: 12px;
+
+        }
+    </style>
+</head>
+
+<body style="margin: 0px;">
+
+    <div class="main">
+
+
+        <div class="one">
+            
+
+            <div class="subtwo">
+                <div class="right-col">
+                    <h1>Contact Me</h1>
+                    <hr style="margin-top: -3%;margin-right: 45%;">
+                    <p>If you have any work for me or any type of queries related to my projects, you can send me a
+                        message from
+                        here. It's my pleasure to help you.</p>
+                    <!-- Contact form -->
+                    <form id="contact-form" method="post">
+                        <label for="name">Full name</label><br>
+                        <input type="text" id="name" name="name" placeholder="Your Full Name" required>
+                        <label for="email">Email Address</label>
+                        <br>
+                        <input type="email" id="email" name="email" placeholder="Your Email Address" required>
+                        <label for="message">Message</label>
+                        <br>
+                        <textarea rows="6" placeholder="Your Message" id="message" name="message" required></textarea>
+                        <br>
+                        <button type="submit" id="submit" name="submit">Send</button>
+                    </form>
+
+
+                </div>
+            </div>
+
+        </div>
+
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+
+</body>
+
+
+
+</html>
